@@ -1,0 +1,10 @@
+Installing Java and WEKA
+
+To install Java and Weka, please do the following:
+Install the JRE (Java Runtime Environment). You can download it from java.com. (This requires reboot in windows.)
+Install WEKA. You can download it from the Weka home page. This home page also has a single download that includes JRE too.
+To run WEKA, you should open a command prompt window (on Windows) or a terminal window (on mac or unix) and go to the "weka-3-4" folder. Then issue the command
+
+     java -jar weka.jar
+Sometimes, WEKA may run out of memory. If this happens, you can rerun it and tell java to allocate more memory. I use the following command:
+     java -Xmx200m -jar weka.jar
